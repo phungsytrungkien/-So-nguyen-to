@@ -2,9 +2,13 @@
 #include <stdio.h>
 
 int main(){
+
 	int n,i,SNT=1;
+	
 	printf("Nhap so N: ");
+	
 	scanf("%d", &n);
+	
 	
 	if(n<2){
 		SNT=0;		
